@@ -1,0 +1,35 @@
+.Nav-Bar{
+    height: 50px;
+    display: block;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(51,51,51);
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(255,255,255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.Drop-Down{
+    display: inline-block;
+    min-width: 150px;
+}
+.Drop-Down-Content{
+    position: absolute;
+}
+.Drop-Down-Content a{
+    display: block;
+    text-align: left;
+}
+.Drop-Down:hover .Drop-Down-Content{
+    display: block;
+}

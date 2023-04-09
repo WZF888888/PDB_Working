@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.Search{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+.Search-index{
+    width: 800px;
+    height: 40px;
+}
+.News{
+    width: 1200px;
+    height: 600px;
+}
+.Table{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+td {
+    width: 398px;
+    height: 80px;
+    border: solid 1px black;
+}
+.table p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.table a{
+    text-decoration: none;
+}
+.table a:link{
+    text-decoration: none;
+}
+.table a:visited{
+    text-decoration: none;
+}
+.table a:hover{
+    text-decoration: none;
+}

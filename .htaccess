@@ -1,0 +1,6 @@
+ErrorDocument 400 /Content/System/Error/400.php
+ErrorDocument 401 /Content/System/Error/401.php
+ErrorDocument 403 /Content/System/Error/403.php
+ErrorDocument 404 /Content/System/Error/404.php
+ErrorDocument 500 /Content/System/Error/500.php
+DirectoryIndex /Content/Home.php
