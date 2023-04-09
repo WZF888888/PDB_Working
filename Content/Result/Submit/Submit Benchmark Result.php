@@ -1,5 +1,8 @@
 <?php
     session_start();
+    if(isset()){
+
+    }
 ?>
 <html>
     <head>
@@ -14,7 +17,8 @@
         </header>
         <div class="Display-Area">
             <div class="User-Not-Login">
-
+                <h2>It seems like you're not currently logged in.</h2>
+                <p>Hello User! Thank you for your interest in submitting your benchmark results with us. To do so, you'll need to log in first. However, if you have privacy concerns, we offer an option to submit the results anonymously.</p>
             </div>
             <div class="User-Login-OK">
 
