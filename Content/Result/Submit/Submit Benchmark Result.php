@@ -44,6 +44,8 @@
                             <option value = "3DMark">3DMark</option>
                         </select>
                     </form>
+                    <input type="checkbox"><p>Yes, I have read and accepted the <a href="/Content/System/Policy/Submit-Benchmark-Policy.php">Privacy Policy.</p>
+                    <button onclick="">Submit</button>
                 </div>
             </div>
         </div>
