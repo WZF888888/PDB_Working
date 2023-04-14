@@ -3,7 +3,7 @@
     height: 150px;
     text-align: center;
     background-color: rgb(51, 51, 51);
-    position: relative;
+    position: absolute;
     bottom: 0;
 }
 .Footer p{

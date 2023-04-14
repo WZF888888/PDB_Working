@@ -1,7 +1,11 @@
 body{
+    position: relative;
     width: 100%;
     margin: 0;
     padding: 0;
+}
+.Display-Area{
+    padding-bottom: 150px;
 }
 .Search{
     width: 1200px;
@@ -18,11 +22,11 @@ body{
 }
 .Table{
     width: 1200px;
-    height: 600px;
     margin: 0 auto;
+    border: black 1px solid;
 }
 td {
-    width: 398px;
+    width: 396px;
     height: 80px;
     border: solid 1px black;
 }
