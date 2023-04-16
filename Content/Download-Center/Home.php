@@ -106,9 +106,9 @@
                                     echo "<p>App Name : $row[AppName]</p>";
                                     echo "<p>App Type : $row[AppType]</p>";
                                     echo "<p>App Size : $row[AppSize] MB</p>";
-                                    echo "<p>App Vender : $row[AppVender]</p>";
+                                    echo "<p>App Version : $row[AppVersion]</p>";
                                     echo "<p>App Description : $row[AppDescription]</p>";
-                                    echo "<p style='float:right'>>> More Details</p>";
+                                    echo "<a href='/Content/Download-Center/Software-Details.php?SoftwareName=$row[AppName]'><p style='float:right'>>> More Details</p></a>";
                                 echo "</div>";
                             echo "</div>";
                         }
