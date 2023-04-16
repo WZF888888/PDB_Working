@@ -28,8 +28,11 @@
         </div>
         <div class="Display-Area">
             <div class="User-Not-Login" <?php echo $CSS_Login_False?>>
-                <h2>It seems like you're not currently logged in.</h2>
-                <p>Hello User! Thank you for your interest in submitting your benchmark results with us. To do so, you'll need to log in first. However, if you have privacy concerns, we offer an option to submit the results anonymously.</p>
+                <h1>It seems like you're not currently logged in.</h1>
+                <h2>Hello User!</h2>
+                <p>Thank you for your interest in submitting your benchmark results with us. To do so, you'll need to log in first.</p>
+                <p>However, if you have privacy concerns, we offer an option to submit the results anonymously.</p>
+                <p>So please log in!</p>
                 <a href="/Content/System/User-Access/Login.php"><button>Login</button></a>
             </div>
             <div class="User-Login-OK" <?php echo $CSS_Login_True?>>
