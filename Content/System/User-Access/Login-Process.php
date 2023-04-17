@@ -16,7 +16,7 @@
         $Username = $Pass_in_Username;
         require_once dirname( __DIR__ ) . "/Config/User-Access-Config.php";
         $SQL_Connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
-        $SQL_Statement = "Select * From performancedatabases_user where Username = '".$Pass_in_Username."' and Password = '".$Pass_in_Password."'";
+        $SQL_Statement = "Select * From performancedatabases_user where UserName = '".$Pass_in_Username."' and UserPassword = '".$Pass_in_Password."'";
         echo $SQL_Statement;
         //Check User Details
         $result = mysqli_query($SQL_Connection,$SQL_Statement);

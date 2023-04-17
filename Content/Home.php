@@ -19,6 +19,9 @@
         <link rel="stylesheet" type="text/css" href="/Content/System/CSS/Nav-Bar.css" />
         <link rel="stylesheet" type="text/css" href="/Content/System/CSS/Homepage.css" />
         <link rel="stylesheet" type="text/css" href="/Content/System/CSS/Footer.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
         <title>HomePage | Performancedatabases.com</title>
     </head>
     <body>
